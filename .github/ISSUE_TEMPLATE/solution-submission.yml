@@ -40,6 +40,13 @@ body:
         3. ...
         4. Profit.
   - type: textarea
+    id: goals-completed
+    attributes:
+      label: Goals Completed
+      description: Which goals did you complete?
+      placeholder: |
+        Ex. I completed goals 1 and 2, I started goal 3
+  - type: textarea
     id: anything-else
     attributes:
       label: Anything else you would like us to know?
