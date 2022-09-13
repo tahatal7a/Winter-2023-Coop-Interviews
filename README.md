@@ -4,7 +4,9 @@ Welcome to the OutStem front-end challenge. Submission instructions are listed b
 
 ## The Challenge
 
-Describe the challenge and insert a link to the API
+The challenge is to build a pokédex application that wraps the existing [pokeapi](https://pokeapi.co/). The design and layout of the website is totally up to you, though you will be judged on the look, feel, and usability of your application, so do your best to respect best practices in web design.
+
+For those unfamiliar, a pokédex is is an device (though in this case we only ask you to build a web UI) that allows you to search for pokémon. For more information see [here](https://pokemon.fandom.com/wiki/Pok%C3%A9dex).
 
 ## Goals
 
@@ -12,7 +14,29 @@ Describe the challenge and insert a link to the API
 
 This challenge has multiple goals that increase in level of difficulty, implement as many of these goals as you are able to.
 
-### Goal 1: ...
+### Goal 1
+
+Create a search box that the user can input the exact name of a pokémon and the app will display the name and image of the matching pokemon. The "search" box here only needs to support exact matches.
+
+### Goal 2
+
+Implement a basic client side cache so that when the user looks up the same pokémon twice your application doesn't need to use the pokeapi again to get the result.
+
+### Goal 3
+
+Use the pokeapi list endpoint to get a list of names of all pokemon and their corresponding URL. Use your caching strategy for the results of this endpoint as well (this is important and required by the pokeapi terms of use).
+
+List endpoint: https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0
+
+### Goal 4
+
+Add client side search by name (this time proper search with partial matching) to the results from the list endpoint.
+
+Complex machine learning based matching is not required here but we welcome the best matching algorithm you can come up with.
+
+### Goal 5
+
+Reuse your matching logic to setup a typeahead on the search box.
 
 
 ## Your solution
@@ -35,7 +59,7 @@ You will be evaluated on:
 
 ## Submission
 
-Please submit your solution in the 2022 Fall interview GitHub repository via GitHub Issue. 
+Please submit your solution in the 2023 Winter interview GitHub repository via GitHub Issue.
 
 1. Navigate to the following link (https://github.com/AES-Outreach/Winter-2023-Coop-Interviews/issues/new/choose) or:
    1. Navigate to the challenge repository
