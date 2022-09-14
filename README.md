@@ -20,7 +20,7 @@ Welcome to the OutStem front-end challenge. Submission instructions are listed b
 
 The challenge is to build a Pokédex application that wraps the existing [pokeapi](https://pokeapi.co/). The design and layout of the website is totally up to you, though you will be judged on the look, feel, and usability of your application, so do your best to respect best practices in web design.
 
-For those unfamiliar, a Pokédex is is an device (though in this case we only ask you to build a web UI) that allows you to search for Pokémon. For more information see [here](https://pokemon.fandom.com/wiki/Pok%C3%A9dex).
+For those unfamiliar, a Pokédex is an device (though in this case we only ask you to build a web UI) that allows you to search for Pokémon. For more information see [here](https://pokemon.fandom.com/wiki/Pok%C3%A9dex).
 
 ## Goals
 
