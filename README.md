@@ -62,7 +62,7 @@ Here are the requirements for your solution.
 
 1. You can complete this challenge using any front end framework of your choice, however, we prefer to see you do this challenge in JavaScript/TypeScript and Angular.
 2. Your solution submission should indicate which goals you've achieved
-4. You must submit your solution in a GitHub repository or a Repl.it (recommended). **Please make sure your project/repository is public and accessible by us.**
+4. You must submit your solution in a GitHub repository or a Repl.it. **Please make sure your project/repository is public and accessible by us.**
 
 ## Evaluation 
 
@@ -88,8 +88,11 @@ Please submit your solution in the 2023 Winter interview GitHub repository via G
 5. Click **Submit New Issue**
 6. Done! Thank you for completing the challenge, we look forward to discussing your solution with you during the interview. 🎉
 
+If you have any questions, you can email Ivana Erlich at ierlich@uottawa.ca
+
 
 ## Bonus Challenges
 
 - Make your UI responsive, that is usable on all screen sizes
 - Implement any other features provided by the API
+
