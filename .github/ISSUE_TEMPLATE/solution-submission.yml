@@ -18,6 +18,13 @@ body:
     validations:
       required: true
   - type: input
+    id: email
+    attributes:
+      label: Your Email
+      placeholder: ex. johnsmith@gmail.com
+    validations:
+      required: true
+  - type: input
     id: source-url
     attributes:
       label: Source Code URL
